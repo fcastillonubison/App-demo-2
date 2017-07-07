@@ -1,0 +1,37 @@
+{
+	"_id": "2698939",
+	"_icon": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\isotipo_azul.png",
+	"_ssL": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
+	"_ssP": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
+	"_ssA9": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
+	"_initialUxComponent": "main",
+	"_componentLastUpdated": "07/07/2017 12:43:56 70 pm",
+	"_ajaxUrl": "http://192.168.100.11:1580/p2",
+	"_additionalFiles": "",
+	"_userName": "wtwx6irfQI388l610MfHcA3dx88wwCfU",
+	"_pw": "nEUmwR92tRwv6SDFKfexhg==",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "<default>",
+		"phoneGapBuildLogin": "<default>",
+		"getAppIcon": "<default>"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
+	},
+	"backupConfigFile": true,
+	"useImageMagick": true,
+	"indexHTMLMetaTags": "",
+	"genAppZipFile": false,
+	"zipFileLocation": "",
+	"buildTarget": "Phonegap Build",
+	"_androidBuildFlag": true,
+	"_iOSBuildFlag": false,
+	"_windowsBuildFlag": false,
+	"launchAppManager": true,
+	"_sqlitedbdefined": false,
+	"cliProjectFolder": ""
+}

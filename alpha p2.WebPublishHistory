@@ -1,0 +1,211 @@
+<PubHist<[1]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:37:59 31 pm')>
+>
+<[2]<type="WebComponent">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\main.a5wcmp}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:30:18 04 pm')>
+>
+<[3]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\bootstrap.min.css}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:37:59 58 pm')>
+>
+<[4]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\materialize.min.css}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:37:59 58 pm')>
+>
+<[5]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:38:14 42 pm')>
+>
+<[6]<type="css">
+<name="ios7">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:38:00 23 pm')>
+>
+<[7]<type="cssIcon">
+<name="font-awesome">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:38:14 53 pm')>
+>
+<[8]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:38:00 36 pm')>
+>
+<[9]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\generic-logo-md.png}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:38:00 36 pm')>
+>
+<[10]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\js\materialize.min.js}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('03/07/2017 12:38:00 39 pm')>
+>
+<[11]<type="A5WPage">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\page.a5w}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 26 pm')>
+>
+<[12]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.css}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 28 pm')>
+>
+<[13]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.min.css}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 28 pm')>
+>
+<[14]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.eot}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 42 pm')>
+>
+<[15]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.svg}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 43 pm')>
+>
+<[16]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.ttf}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 44 pm')>
+>
+<[17]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff2}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 45 pm')>
+>
+<[18]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 45 pm')>
+>
+<[19]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome.otf}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 47 pm')>
+>
+<[20]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\projectproperties.projectproperties}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('04/07/2017 02:37:36 47 pm')>
+>
+<[21]<type="A5WPage">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\page.a5w}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:49 91 pm')>
+>
+<[22]<type="WebComponent">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\main.a5wcmp}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('07/07/2017 02:27:00 00 pm')>
+>
+<[23]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\bootstrap.min.css}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 21 pm')>
+>
+<[24]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.css}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 21 pm')>
+>
+<[25]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.min.css}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 22 pm')>
+>
+<[26]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\materialize.min.css}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 22 pm')>
+>
+<[27]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('07/07/2017 02:27:00 05 pm')>
+>
+<[28]<type="css">
+<name="ios7">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 53 pm')>
+>
+<[29]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 61 pm')>
+>
+<[30]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.eot}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 63 pm')>
+>
+<[31]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.svg}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 64 pm')>
+>
+<[32]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.ttf}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 65 pm')>
+>
+<[33]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff2}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 66 pm')>
+>
+<[34]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 66 pm')>
+>
+<[35]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome.otf}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 67 pm')>
+>
+<[36]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\generic-logo-md.png}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 67 pm')>
+>
+<[37]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\js\materialize.min.js}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 69 pm')>
+>
+<[38]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\projectproperties.projectproperties}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:00:50 70 pm')>
+>
+<[39]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('04/07/2017 03:05:28 91 pm')>
+>
+<[40]<type="cssIcon">
+<name="font-awesome">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('07/07/2017 02:27:00 16 pm')>
+>
+<[41]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\logo-demo.png}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('07/07/2017 09:12:37 44 am')>
+>
+<[42]<type="file">
+<name="{c:\users\desarrollador\documents\alpha p2\alpha p2.webprojects\default.webproject\logo_nubison_negro.png}">
+<target_folder="c:\a5webroot\p2">
+<timestamp=CTODT('07/07/2017 09:18:23 14 am')>
+>
+>
