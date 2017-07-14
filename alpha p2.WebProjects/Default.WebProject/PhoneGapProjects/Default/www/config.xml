@@ -175,4 +175,5 @@
 	<plugin name="cordova-plugin-file" source="npm" />
 	<plugin name="cordova-plugin-file-transfer" source="npm" version="1.5.1" />
 	<plugin name="cordova-plugin-dialogs" source="npm" />
+	<plugin name="cordova-plugin-media-capture" source="npm" />
 </widget>
