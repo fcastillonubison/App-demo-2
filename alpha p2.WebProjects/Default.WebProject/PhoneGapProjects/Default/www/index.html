@@ -87,17 +87,53 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.woff2">
 
 <style type="text/css">
-.color1{color:#FF9F1C!important;}
-.fondo1{background-color:#FF9F1C!important;}
-.color2{color:#011627!important;}
-.fondo2{background-color:#011627!important;}
-.color3{color:#FDFFFC!important;}
-.fondo3{background-color:#FDFFFC!important;}
-.padding0{padding:0px!important}
-.padding5{padding:5px!important}
-.padding10{padding:10px!important}
-.padding15{padding:15px!important}
-.btn-custom { background-color: #E71D36!important; }
+.color1 {
+  color: #FF9F1C !important; }
+.fondo1 {
+  background-color: #FF9F1C !important; }
+.color2 {
+  color: #011627 !important; }
+.fondo2 {
+  background-color: #011627 !important; }
+.color3 {
+  color: #FDFFFC !important; }
+.fondo3 {
+  background-color: #FDFFFC !important; }
+.padding0 {
+  padding: 0px !important; }
+.padding5 {
+  padding: 5px !important; }
+.padding10 {
+  padding: 10px !important; }
+.padding15 {
+  padding: 15px !important; }
+.btn-custom {
+  background-color: #E71D36 !important; }
+.width75 {
+  width: 75%; }
+.imgprev {
+  width: 100%;
+  max-height: 400px !important;
+  overflow: hidden; }
+.imgprev img {
+  width: 100% !important;
+  height: auto !important; }
+h2 {
+  margin: 0px !important; }
+.btn-floating.halfway-fab {
+  position: absolute;
+  right: 12px;
+  bottom: 0px;
+  height: 50px;
+  width: 50px;
+  line-height: 48px; }
+.fixed-action-btn {
+  position: absolute !important;
+  right: 50px;
+  bottom: 50px; }
+@media only screen and (max-width: 400px) {
+  .navfooter .btn {
+    font-size: 0.6rem !important; } }
 #DLG1\.V\.R1\.CONTROLBAR_2 .A5ControlBarItem, #DLG1\.V\.R1\.CONTROLBAR_2\.DISCLOSURES .A5ControlBarItem {
   width: 100%; }
 #DLG1\.V\.R1\.CONTROLBAR_2 .A5ControlBarLineContentBefore, #DLG1\.V\.R1\.CONTROLBAR_2\.DISCLOSURES .A5ControlBarLineContentBefore {
@@ -107,226 +143,222 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 #DLG1\.V\.R1\.CONTROLBAR_2 .A5ControlBarLineContentMiddle, #DLG1\.V\.R1\.CONTROLBAR_2\.DISCLOSURES .A5ControlBarLineContentMiddle {
   width: 33%;
   margin: auto; }
-._DLG1_LISTA_dirtyRow { position:relative; }
-._DLG1_LISTA_dirtyRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid orange;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_LISTA_newRow {  position:relative; }
-._DLG1_LISTA_newRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid blue;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_LISTA_hasError {  position:relative; }
-._DLG1_LISTA_hasError:after { 
-		content: "";
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid red;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-color: transparent;
-}
-._DLG1_LISTA_deletedRow {  position:relative; }
-._DLG1_LISTA_deletedRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_LISTA_dirtyRowInherited { position:relative; }
-._DLG1_LISTA_dirtyRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid orange;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_LISTA_deletedRowInherited { position:relative; }
-._DLG1_LISTA_deletedRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_LISTA_newRowInherited {  position:relative; }
-._DLG1_LISTA_newRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid blue;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_LISTA_hasErrorInherited {  position:relative; }
-._DLG1_LISTA_hasErrorInherited:after { 
-	content: "";
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	border: 10px solid red;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-color: transparent;
-opacity: .3;
-}
-.parentDeleted { 
-	position:relative;
-}
-.parentIsDeleted .parentDeleted:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_PROPIEDADES_dirtyRow { position:relative; }
-._DLG1_PROPIEDADES_dirtyRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid orange;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_PROPIEDADES_newRow {  position:relative; }
-._DLG1_PROPIEDADES_newRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid blue;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_PROPIEDADES_hasError {  position:relative; }
-._DLG1_PROPIEDADES_hasError:after { 
-		content: "";
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid red;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-color: transparent;
-}
-._DLG1_PROPIEDADES_deletedRow {  position:relative; }
-._DLG1_PROPIEDADES_deletedRow:before { 
-		content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	opacity: 1;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-}
-._DLG1_PROPIEDADES_dirtyRowInherited { position:relative; }
-._DLG1_PROPIEDADES_dirtyRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid orange;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_PROPIEDADES_deletedRowInherited { position:relative; }
-._DLG1_PROPIEDADES_deletedRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_PROPIEDADES_newRowInherited {  position:relative; }
-._DLG1_PROPIEDADES_newRowInherited:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid blue;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
-._DLG1_PROPIEDADES_hasErrorInherited {  position:relative; }
-._DLG1_PROPIEDADES_hasErrorInherited:after { 
-	content: "";
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	border: 10px solid red;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-color: transparent;
-opacity: .3;
-}
-.parentDeleted { 
-	position:relative;
-}
-.parentIsDeleted .parentDeleted:before { 
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 10px solid purple;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-bottom-color: transparent;
-opacity: .3;
-}
+._DLG1_LISTA_dirtyRow {
+  position: relative; }
+._DLG1_LISTA_dirtyRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid orange;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_LISTA_newRow {
+  position: relative; }
+._DLG1_LISTA_newRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid blue;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_LISTA_hasError {
+  position: relative; }
+._DLG1_LISTA_hasError:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid red;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: transparent; }
+._DLG1_LISTA_deletedRow {
+  position: relative; }
+._DLG1_LISTA_deletedRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_LISTA_dirtyRowInherited {
+  position: relative; }
+._DLG1_LISTA_dirtyRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid orange;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_LISTA_deletedRowInherited {
+  position: relative; }
+._DLG1_LISTA_deletedRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_LISTA_newRowInherited {
+  position: relative; }
+._DLG1_LISTA_newRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid blue;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_LISTA_hasErrorInherited {
+  position: relative; }
+._DLG1_LISTA_hasErrorInherited:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 10px solid red;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: transparent;
+  opacity: .3; }
+.parentDeleted {
+  position: relative; }
+.parentIsDeleted .parentDeleted:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_PROPIEDADES_dirtyRow {
+  position: relative; }
+._DLG1_PROPIEDADES_dirtyRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid orange;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_PROPIEDADES_newRow {
+  position: relative; }
+._DLG1_PROPIEDADES_newRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid blue;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_PROPIEDADES_hasError {
+  position: relative; }
+._DLG1_PROPIEDADES_hasError:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid red;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: transparent; }
+._DLG1_PROPIEDADES_deletedRow {
+  position: relative; }
+._DLG1_PROPIEDADES_deletedRow:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 1;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent; }
+._DLG1_PROPIEDADES_dirtyRowInherited {
+  position: relative; }
+._DLG1_PROPIEDADES_dirtyRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid orange;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_PROPIEDADES_deletedRowInherited {
+  position: relative; }
+._DLG1_PROPIEDADES_deletedRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_PROPIEDADES_newRowInherited {
+  position: relative; }
+._DLG1_PROPIEDADES_newRowInherited:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid blue;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
+._DLG1_PROPIEDADES_hasErrorInherited {
+  position: relative; }
+._DLG1_PROPIEDADES_hasErrorInherited:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 10px solid red;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: transparent;
+  opacity: .3; }
+.parentDeleted {
+  position: relative; }
+.parentIsDeleted .parentDeleted:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 10px solid purple;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-color: transparent;
+  opacity: .3; }
 </style>
 <style>
 </style>
@@ -484,7 +516,7 @@ if(typeof DLG1_DlgObj == 'object') {
 	body: {
 		content: {
 			type: 'html',
-			src: '<div \tid="DLG1.V.R1.CONTAINER_3"   \n\t\t\tclass="container-fluid padding0"  style="overflow-x: hidden; "  >\n<div \tid="DLG1.V.R1.CONTAINER_18"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_19"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_20"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding0"  style=""  >\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_25"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_6"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_7"   \n\t\t\tclass="card fondo3 color2 z-depth-2"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LISTA_KEYWORDSEARCH" for="DLG1.V.R1.LISTA_KEYWORDSEARCH" title="" class="iOS7DialogLabel" style="display:block;">Buscar</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.LISTA_KEYWORDSEARCH" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LISTA_KEYWORDSEARCH"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_LISTSEARCH_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_LISTSEARCHCLEAR_LISTA"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_4"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_8"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_9"   \n\t\t\tclass="card fondo3 color2 z-depth-2"  style="width: 90%; "  >\n<div class="" style="width: 90%" >\n\t\n<div  class="iOS7List"   style="padding:0px; "  >\n\t<div id="DLG1.V.R1.LISTA.CONTROL"  class="DLG1_LISTA" style="overflow: auto; width: 100%; height: auto; "></div>\n</div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_5"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_10"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_11"   \n\t\t\tclass="card fondo3 color2 z-depth-2"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVNEWRECORD_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSYNCHRONIZE_LISTA"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div \tid="DLG1.V.R1.CONTAINER_3"   \n\t\t\tclass="container-fluid padding0"  style="overflow-x: hidden; "  >\n<div \tid="DLG1.V.R1.CONTAINER_18"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_19"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_20"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding0 hoverable"  style=""  >\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_25"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_6"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_7"   \n\t\t\tclass="card fondo3 color2 z-depth-2 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LISTA_KEYWORDSEARCH" for="DLG1.V.R1.LISTA_KEYWORDSEARCH" title="" class="iOS7DialogLabel" style="display:block;">Buscar</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.LISTA_KEYWORDSEARCH" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LISTA_KEYWORDSEARCH"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_LISTSEARCH_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_LISTSEARCHCLEAR_LISTA"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_4"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_8"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_9"   \n\t\t\tclass="card fondo3 color2 z-depth-2 hoverable"  style="width: 90%; "  >\n<div class="" style="width: 90%" >\n\t\n<div  class="iOS7List"   style="padding:0px; "  >\n\t<div id="DLG1.V.R1.LISTA.CONTROL"  class="DLG1_LISTA" style="overflow: auto; width: 100%; height: auto; "></div>\n</div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_5"   \n\t\t\tclass="row"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_10"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_11"   \n\t\t\tclass="card fondo3 color2 z-depth-2 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVNEWRECORD_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSYNCHRONIZE_LISTA"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'y',
@@ -510,7 +542,8 @@ if(typeof DLG1_DlgObj == 'object') {
 					bottom: '0px'
 				}
 			}
-		}
+		},
+		className: 'grey lighten-3'
 	},
 	header: {
 		html: '<div style="display:none;"></div>'
@@ -531,7 +564,7 @@ if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != '
 	body: {
 		content: {
 			type: 'html',
-			src: '<div \tid="DLG1.V.R1.CONTAINER_1_2"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_12"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_13"   \n\t\t\tclass="card fondo3 color2 z-depth-2"  style=""  >\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_14"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.NOMBRE_OBRAS" for="DLG1.V.R1.NOMBRE_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Nombre:</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.NOMBRE_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.NOMBRE_OBRAS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.DIRECCION_OBRAS" for="DLG1.V.R1.DIRECCION_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Direccion:</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.DIRECCION_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.DIRECCION_OBRAS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_17"   \n\t\t\tclass=""  style="width: 100%; height: 256px; "  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.MAPA_OBRA.CONTROL"  style="width: 100%; height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; "></div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div class="" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_OBRAS" for="DLG1.V.R1.FOTO_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Foto:</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_OBRAS" class="responsive-img" title="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_OBRAS_HIDDENA5FN" name="V.R1.FOTO_OBRAS_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_8"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.LISTA_GLOBALERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSAVE_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVDELETERECORD_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVRESET_LISTA"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="display:none;"><span><input\ttype="text" id="DLG1.V.R1.ID_OBRAS" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_OBRAS"    value=""    />\n</span>\n<span><input\ttype="text" id="DLG1.V.R1.LAT_OBRAS" title=""     class="iOS7Edit" style="width: 50%; "    name="V.R1.LAT_OBRAS"    value=""    />\n</span>\n<span><input\ttype="text" id="DLG1.V.R1.LONG_OBRAS" title=""     class="iOS7Edit" style="width: 50%; "    name="V.R1.LONG_OBRAS"    value=""    />\n</span>\n</div><div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div \tid="DLG1.V.R1.CONTAINER_1_2"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_12"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_13"   \n\t\t\tclass="card fondo3 color2 z-depth-2 hoverable "  style=""  >\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_14"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.NOMBRE_OBRAS" for="DLG1.V.R1.NOMBRE_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Nombre:</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.NOMBRE_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.NOMBRE_OBRAS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.DIRECCION_OBRAS" for="DLG1.V.R1.DIRECCION_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Direccion:</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.DIRECCION_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.DIRECCION_OBRAS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_73"   \n\t\t\tclass="col-xs-2 col-sm-1"  style="text-align: center; margin-top: 25px; "  >\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_26"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_74"   \n\t\t\tclass="col-xs-5"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LAT_OBRAS" for="DLG1.V.R1.LAT_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Latitud</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.LAT_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LAT_OBRAS"    value=""    />\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_75"   \n\t\t\tclass="col-xs-5"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LONG_OBRAS" for="DLG1.V.R1.LONG_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Longitud</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.LONG_OBRAS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LONG_OBRAS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_17"   \n\t\t\tclass=""  style="width: 100%; height: 256px; "  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.MAPA_OBRA.CONTROL"  style="width: 100%; height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; "></div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div class=" center-align" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_OBRAS" for="DLG1.V.R1.FOTO_OBRAS" title="" class="iOS7DialogLabel" style="display:block;">Foto:</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_OBRAS" class="responsive-img" title="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_OBRAS_HIDDENA5FN" name="V.R1.FOTO_OBRAS_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_8"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.LISTA_GLOBALERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSAVE_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVDELETERECORD_LISTA"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVRESET_LISTA"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="display:none;"><span><input\ttype="text" id="DLG1.V.R1.ID_OBRAS" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_OBRAS"    value=""    />\n</span>\n</div><div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'y',
@@ -557,7 +590,8 @@ if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != '
 					bottom: '0px'
 				}
 			}
-		}
+		},
+		className: 'grey lighten-3'
 	},
 	header: {
 		html: '<div style="display:none;"></div>'
@@ -578,7 +612,7 @@ if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != '
 	body: {
 		content: {
 			type: 'html',
-			src: '<div \tid="DLG1.V.R1.CONTAINER_1_3"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_15"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_16"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding15"  style=""  >\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.HALLACCESO" for="DLG1.V.R1.HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Acceso al hall</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.HALLACCESO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.HALLACCESO"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_HALLACCESO" for="DLG1.V.R1.FOTO_HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Foto acceso al hall</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_HALLACCESO" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_HALLACCESO_HIDDENA5FN" name="V.R1.FOTO_HALLACCESO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_15"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_HALLACCESO" for="DLG1.V.R1.COMENT_HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Comentario del hall de acceso</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_HALLACCESO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_HALLACCESO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LIVING" for="DLG1.V.R1.LIVING" title="" class="iOS7DialogLabel" style="display:block;">Living</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.LIVING" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LIVING"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_LIVING" for="DLG1.V.R1.FOTO_LIVING" title="" class="iOS7DialogLabel" style="display:block;">Foto living</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_LIVING" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_LIVING_HIDDENA5FN" name="V.R1.FOTO_LIVING_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_16"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_LIVING" for="DLG1.V.R1.COMENT_LIVING" title="" class="iOS7DialogLabel" style="display:block;">Comentario living</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_LIVING" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_LIVING"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMEDOR" for="DLG1.V.R1.COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Comedor</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.COMEDOR" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.COMEDOR"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_COMEDOR" for="DLG1.V.R1.FOTO_COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Foto comedor</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_COMEDOR" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_COMEDOR_HIDDENA5FN" name="V.R1.FOTO_COMEDOR_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_17"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_COMEDOR" for="DLG1.V.R1.COMENT_COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Comentario comedor</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_COMEDOR" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_COMEDOR"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.TERRAZA" for="DLG1.V.R1.TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Terraza</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.TERRAZA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.TERRAZA"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_TERRAZA" for="DLG1.V.R1.FOTO_TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Foto terraza</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_TERRAZA" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_TERRAZA_HIDDENA5FN" name="V.R1.FOTO_TERRAZA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_18"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_TERRAZA" for="DLG1.V.R1.COMENT_TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Comentario terraza</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_TERRAZA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_TERRAZA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.DORMITORIO" for="DLG1.V.R1.DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Dormitorio</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.DORMITORIO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.DORMITORIO"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_DORMITORIO" for="DLG1.V.R1.FOTO_DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Foto dormitorio</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_DORMITORIO" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_DORMITORIO_HIDDENA5FN" name="V.R1.FOTO_DORMITORIO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_19"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_DORMITORIO" for="DLG1.V.R1.COMENT_DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Comentario dormitorio</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_DORMITORIO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_DORMITORIO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.BANO" for="DLG1.V.R1.BANO" title="" class="iOS7DialogLabel" style="display:block;">Baño</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.BANO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.BANO"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_BANO" for="DLG1.V.R1.FOTO_BANO" title="" class="iOS7DialogLabel" style="display:block;">Foto del baño</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_BANO" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_BANO_HIDDENA5FN" name="V.R1.FOTO_BANO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_20"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_BANO" for="DLG1.V.R1.COMENT_BANO" title="" class="iOS7DialogLabel" style="display:block;">Comentario baño</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_BANO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_BANO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.PASILLODORMITORIO" for="DLG1.V.R1.PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Pasillo del dormitorio</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.PASILLODORMITORIO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASILLODORMITORIO"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_PASILLODORMITORIO" for="DLG1.V.R1.FOTO_PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Foto pasillo dormitorio</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_PASILLODORMITORIO" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_PASILLODORMITORIO_HIDDENA5FN" name="V.R1.FOTO_PASILLODORMITORIO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_21"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_PASILLODORMITORIO" for="DLG1.V.R1.COMENT_PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Comentario pasillo dormitorio</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_PASILLODORMITORIO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_PASILLODORMITORIO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.LOGGIA" for="DLG1.V.R1.LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Loggia</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.LOGGIA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LOGGIA"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_LOGGIA" for="DLG1.V.R1.FOTO_LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Foto loggia</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_LOGGIA" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_LOGGIA_HIDDENA5FN" name="V.R1.FOTO_LOGGIA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_22"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_LOGGIA" for="DLG1.V.R1.COMENT_LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Comentario loggia</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_LOGGIA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_LOGGIA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COCINA" for="DLG1.V.R1.COCINA" title="" class="iOS7DialogLabel" style="display:block;">Cocina</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.COCINA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.COCINA"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_COCINA" for="DLG1.V.R1.FOTO_COCINA" title="" class="iOS7DialogLabel" style="display:block;">Foto cocina</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_COCINA" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_COCINA_HIDDENA5FN" name="V.R1.FOTO_COCINA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_23"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_COCINA" for="DLG1.V.R1.COMENT_COCINA" title="" class="iOS7DialogLabel" style="display:block;">Comentario cocina</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_COCINA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_COCINA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.BODEGA" for="DLG1.V.R1.BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Bodega</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.BODEGA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.BODEGA"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_BODEGA" for="DLG1.V.R1.FOTO_BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Foto bodega</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_BODEGA" class="" title="" style="max-height: 256px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_BODEGA_HIDDENA5FN" name="V.R1.FOTO_BODEGA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_24"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_BODEGA" for="DLG1.V.R1.COMENT_BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Comentario bodega</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_BODEGA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_BODEGA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.PROPIEDADES_GLOBALERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div><br  style="clear:both; " />\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSAVE_PROPIEDADES"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVDELETERECORD_PROPIEDADES"    ></button>\n</div>\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVRESET_PROPIEDADES"    ></button>\n</div>\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSYNCHRONIZE_PROPIEDADES"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="display:none;"><span>\n<div  class="iOS7List"   style="padding:0px; "  >\n\t<div id="DLG1.V.R1.PROPIEDADES.CONTROL"  class="DLG1_PROPIEDADES" style="overflow: auto; width: 100%; height: 3in; "></div>\n</div>\n</span>\n<span><input\ttype="number" id="DLG1.V.R1.ID_PROP" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_PROP"    value=""    />\n</span>\n<span><input\ttype="text" id="DLG1.V.R1.ID_OBRAS_1" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_OBRAS_1"    value=""    />\n</span>\n</div><div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div \tid="DLG1.V.R1.CONTAINER_1_3"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_15"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_16"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_1" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Hall Acceso</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_52"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_HALLACCESO" for="DLG1.V.R1.FOTO_HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_HALLACCESO" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_HALLACCESO_HIDDENA5FN" name="V.R1.FOTO_HALLACCESO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_15"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_53"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.HALLACCESO" for="DLG1.V.R1.HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.HALLACCESO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.HALLACCESO"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_HALLACCESO" for="DLG1.V.R1.COMENT_HALLACCESO" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_HALLACCESO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_HALLACCESO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_4"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_22"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_23"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_2" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Living</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_54"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_LIVING" for="DLG1.V.R1.FOTO_LIVING" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_LIVING" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_LIVING_HIDDENA5FN" name="V.R1.FOTO_LIVING_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_16"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_55"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.LIVING" for="DLG1.V.R1.LIVING" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.LIVING" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LIVING"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_LIVING" for="DLG1.V.R1.COMENT_LIVING" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_LIVING" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_LIVING"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_5"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_24"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_25"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_3" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Comedor</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_56"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_COMEDOR" for="DLG1.V.R1.FOTO_COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_COMEDOR" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_COMEDOR_HIDDENA5FN" name="V.R1.FOTO_COMEDOR_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_17"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_57"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.COMEDOR" for="DLG1.V.R1.COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.COMEDOR" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.COMEDOR"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_COMEDOR" for="DLG1.V.R1.COMENT_COMEDOR" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_COMEDOR" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_COMEDOR"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_6"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_26"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_27"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_4" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Terraza</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_58"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_TERRAZA" for="DLG1.V.R1.FOTO_TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_TERRAZA" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_TERRAZA_HIDDENA5FN" name="V.R1.FOTO_TERRAZA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_18"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_59"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.TERRAZA" for="DLG1.V.R1.TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.TERRAZA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.TERRAZA"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_TERRAZA" for="DLG1.V.R1.COMENT_TERRAZA" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_TERRAZA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_TERRAZA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_7"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_28"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_29"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_5" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Dormitorio</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_60"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_DORMITORIO" for="DLG1.V.R1.FOTO_DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_DORMITORIO" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_DORMITORIO_HIDDENA5FN" name="V.R1.FOTO_DORMITORIO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_19"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_61"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.DORMITORIO" for="DLG1.V.R1.DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.DORMITORIO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.DORMITORIO"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_DORMITORIO" for="DLG1.V.R1.COMENT_DORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_DORMITORIO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_DORMITORIO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_8"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_30"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_31"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_6" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Ba&ntilde; o</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_62"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_BANO" for="DLG1.V.R1.FOTO_BANO" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_BANO" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_BANO_HIDDENA5FN" name="V.R1.FOTO_BANO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_20"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_63"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.BANO" for="DLG1.V.R1.BANO" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.BANO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.BANO"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_BANO" for="DLG1.V.R1.COMENT_BANO" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_BANO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_BANO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_9"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_32"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_33"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_7" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Pasillo de Dormitorio</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_64"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_PASILLODORMITORIO" for="DLG1.V.R1.FOTO_PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_PASILLODORMITORIO" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_PASILLODORMITORIO_HIDDENA5FN" name="V.R1.FOTO_PASILLODORMITORIO_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_21"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_65"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.PASILLODORMITORIO" for="DLG1.V.R1.PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.PASILLODORMITORIO" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASILLODORMITORIO"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_PASILLODORMITORIO" for="DLG1.V.R1.COMENT_PASILLODORMITORIO" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_PASILLODORMITORIO" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_PASILLODORMITORIO"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_10"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_34"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_35"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_8" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Loggia</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_66"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_LOGGIA" for="DLG1.V.R1.FOTO_LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_LOGGIA" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_LOGGIA_HIDDENA5FN" name="V.R1.FOTO_LOGGIA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_22"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_67"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.LOGGIA" for="DLG1.V.R1.LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.LOGGIA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.LOGGIA"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_LOGGIA" for="DLG1.V.R1.COMENT_LOGGIA" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_LOGGIA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_LOGGIA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_11"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_36"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_37"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_9" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Cocina</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_68"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_COCINA" for="DLG1.V.R1.FOTO_COCINA" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_COCINA" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_COCINA_HIDDENA5FN" name="V.R1.FOTO_COCINA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_23"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_69"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.COCINA" for="DLG1.V.R1.COCINA" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.COCINA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.COCINA"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_COCINA" for="DLG1.V.R1.COMENT_COCINA" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_COCINA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_COCINA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_12"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_38"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_39"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_10" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><h2>Bodega</h2></div>\n</div><br  style="clear:both; " />\n<div \tid="DLG1.V.R1.CONTAINER_70"   \n\t\t\tclass="col-xs-12 col-sm-6 padding0"  style=""  >\n<div class="A5CWLayout imgprev" style="width: " >\n\t<label id="DLG1.LBL.R1.FOTO_BODEGA" for="DLG1.V.R1.FOTO_BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Foto</label>\n\n\t<img src="" id="DLG1.V.R1.FOTO_BODEGA" class="responsive-img" title="" style="height: auto!important; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  /><input type="hidden" id="DLG1.V.R1.FOTO_BODEGA_HIDDENA5FN" name="V.R1.FOTO_BODEGA_HIDDENA5FN" >\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: " >\n\t<button type="button" id="DLG1.V.R1.BUTTON_24"    ></button>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_71"   \n\t\t\tclass="col-xs-12 col-sm-6"  style=""  >\n<div class="A5CWLayout" style="width: 25%" >\n\t<label id="DLG1.LBL.R1.BODEGA" for="DLG1.V.R1.BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Cantidad</label>\n\n\t<input\ttype="number" id="DLG1.V.R1.BODEGA" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.BODEGA"    value=""    />\n\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.COMENT_BODEGA" for="DLG1.V.R1.COMENT_BODEGA" title="" class="iOS7DialogLabel" style="display:block;">Comentarios</label>\n\n\t<textarea\tid="DLG1.V.R1.COMENT_BODEGA" class="iOS7Edit" title="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" rows="2" cols="20"    name="V.R1.COMENT_BODEGA"  ></textarea>\n\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div \tid="DLG1.V.R1.CONTAINER_1_13"   \n\t\t\tclass="container-fluid padding0"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_40"   \n\t\t\tclass="col-xs-12"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_41"   \n\t\t\tclass="card fondo3 color2 z-depth-2 padding5 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.PROPIEDADES_GLOBALERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div><br  style="clear:both; " />\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSAVE_PROPIEDADES"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVDELETERECORD_PROPIEDADES"    ></button>\n</div>\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVRESET_PROPIEDADES"    ></button>\n</div>\n<div class="">\n\t<button type="button" id="DLG1.V.R1.BUTTON_DVSYNCHRONIZE_PROPIEDADES"    ></button>\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="display:none;"><span>\n<div  class="iOS7List"   style="padding:0px; "  >\n\t<div id="DLG1.V.R1.PROPIEDADES.CONTROL"  class="DLG1_PROPIEDADES" style="overflow: auto; width: 100%; height: 3in; "></div>\n</div>\n</span>\n<span><input\ttype="number" id="DLG1.V.R1.ID_PROP" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_PROP"    value=""    />\n</span>\n<span><input\ttype="text" id="DLG1.V.R1.ID_OBRAS_1" title=""     class="iOS7Edit" style="width: 100%; "    name="V.R1.ID_OBRAS_1"    value=""    />\n</span>\n</div><div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -604,7 +638,8 @@ if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != '
 					bottom: '0px'
 				}
 			}
-		}
+		},
+		className: 'grey lighten-3'
 	},
 	header: {
 		html: '<div style="display:none;"></div>'
@@ -625,7 +660,7 @@ if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != '
 	body: {
 		content: {
 			type: 'html',
-			src: '<div \tid="DLG1.V.R1.CONTAINER_21"   \n\t\t\tclass=""  style="width: 100%; height: 100%; "  >\n<div class=" padding0" style="width: 4in" >\n\t<div id="DLG1.V.R1.MAPA_GENERAL.CONTROL"  style="width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; "></div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div \tid="DLG1.V.R1.CONTAINER_72"   \n\t\t\tclass=""  style="position: relative; width: 100%; height: auto; "  >\n<div \tid="DLG1.V.R1.CONTAINER_21"   \n\t\t\tclass=""  style="width: 100%; height: CALC(100vh - 131px); "  >\n<div class=" padding0" style="width: 4in" >\n\t<div id="DLG1.V.R1.MAPA_GENERAL.CONTROL"  style="width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; "></div>\n\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div class="" style="width: " >\n\t<div id="DLG1.V.R1.STATICTEXT_11" title=""  class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><div class="fixed-action-btn vertical">\n    <a class="btn-custom btn-floating btn-large">\n      <i class="fa fa-plus"></i>\n    </a>\n    <ul>\n      <li><a class="btn-floating" style="background-color:#670D18;"><i class="fa fa-map"></i></a></li>\n      <li><a class="btn-floating" style="background-color:#A71527;"><i class="fa fa-edit"></i></a></li>\n      <li><a class="btn-floating" style="background-color:#CD1A30;"><i class="fa fa-refresh"></i></a></li>\n    </ul>\n  </div></div>\n</div><br  style="clear:both; " />\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'y',
@@ -689,7 +724,7 @@ if(cbObj && DLG1_DlgObj.flagRenderComplete && arguments[0].changed ) cbObj.refre
 		show: true,
 		html: '<div class=""   id="DLG1.V.R1.CONTROLBAR_2" style="width: 100%; height: 56px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"> </div> ',
 		style: 'width: 100%;',
-		className: 'color3 fondo2'
+		className: 'color3 fondo2 navfooter'
 	},
 	overlay: {
 	},
@@ -742,11 +777,11 @@ LISTADO : 'LISTADO',INFO : 'INFO',DETALLE : 'DETALLE',MAPA : 'MAPA',PANELNAVIGAT
 };
 if(typeof DLG1_DlgObj == 'object') DLG1_DlgObj._destroy();
 var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
-	ajaxURL: 'http://192.168.100.11:1580/p2/MAIN.a5wcmp?__virtualPage=__a5RunDialog.a5w&__dialogFilename=MAIN&__alias=DLG1&__unsaved=no',
+	ajaxURL: 'http://nubisonlab.cl:1580/p2app/MAIN.a5wcmp?__virtualPage=__a5RunDialog.a5w&__dialogFilename=MAIN&__alias=DLG1&__unsaved=no',
 	_embeddedMode: false,
 	_livePreviewInBuilder: false,
 	componentGUID: '853ba8c8-48b2-4ef0-a62b-6c1e40b2b85f',
-	columnInfo: {'LISTA_KEYWORDSEARCH': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LISTA': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  },'ID_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'N'  },'NOMBRE_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'DIRECCION_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LAT_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LONG_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'MAPA_OBRA': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_OBRAS': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PROPIEDADES': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  },'ID_PROP': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'ID_OBRAS_1': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: ''  },'HALLACCESO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_HALLACCESO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_HALLACCESO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIVING': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_LIVING': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_LIVING': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMEDOR': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_COMEDOR': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_COMEDOR': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'TERRAZA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_TERRAZA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_TERRAZA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'DORMITORIO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_DORMITORIO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_DORMITORIO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'BANO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_BANO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_BANO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASILLODORMITORIO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_PASILLODORMITORIO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_PASILLODORMITORIO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LOGGIA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_LOGGIA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_LOGGIA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COCINA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_COCINA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_COCINA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'BODEGA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'FOTO_BODEGA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMENT_BODEGA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'MAPA_GENERAL': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
+	columnInfo: {'LISTA_KEYWORDSEARCH': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LISTA': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  },'ID_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'N'  },'NOMBRE_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'DIRECCION_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LAT_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LONG_OBRAS': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'MAPA_OBRA': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_OBRAS': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PROPIEDADES': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  },'ID_PROP': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'ID_OBRAS_1': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: ''  },'FOTO_HALLACCESO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'HALLACCESO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_HALLACCESO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_LIVING': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIVING': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_LIVING': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_COMEDOR': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COMEDOR': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_COMEDOR': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_TERRAZA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'TERRAZA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_TERRAZA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_DORMITORIO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'DORMITORIO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_DORMITORIO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_BANO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'BANO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_BANO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_PASILLODORMITORIO': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASILLODORMITORIO': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_PASILLODORMITORIO': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_LOGGIA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LOGGIA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_LOGGIA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_COCINA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'COCINA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_COCINA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'FOTO_BODEGA': {info: {controlType: 'Image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'BODEGA': {info: {controlType: 'TextBox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'L'  },'COMENT_BODEGA': {info: {controlType: 'TextArea'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'MAPA_GENERAL': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
 	originalValues: [{
 	'LISTA_KEYWORDSEARCH': '',
 	'LISTA': '',
@@ -761,45 +796,45 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	'PROPIEDADES': '',
 	'ID_PROP': '',
 	'ID_OBRAS_1': '',
-	'HALLACCESO': false,
 	'FOTO_HALLACCESO': 'a5images/null1x1.png',
 	'FOTO_HALLACCESO_HIDDENA5FN': '',
+	'HALLACCESO': false,
 	'COMENT_HALLACCESO': '',
-	'LIVING': false,
 	'FOTO_LIVING': 'a5images/null1x1.png',
 	'FOTO_LIVING_HIDDENA5FN': '',
+	'LIVING': false,
 	'COMENT_LIVING': '',
-	'COMEDOR': false,
 	'FOTO_COMEDOR': 'a5images/null1x1.png',
 	'FOTO_COMEDOR_HIDDENA5FN': '',
+	'COMEDOR': false,
 	'COMENT_COMEDOR': '',
-	'TERRAZA': false,
 	'FOTO_TERRAZA': 'a5images/null1x1.png',
 	'FOTO_TERRAZA_HIDDENA5FN': '',
+	'TERRAZA': false,
 	'COMENT_TERRAZA': '',
-	'DORMITORIO': false,
 	'FOTO_DORMITORIO': 'a5images/null1x1.png',
 	'FOTO_DORMITORIO_HIDDENA5FN': '',
+	'DORMITORIO': false,
 	'COMENT_DORMITORIO': '',
-	'BANO': false,
 	'FOTO_BANO': 'a5images/null1x1.png',
 	'FOTO_BANO_HIDDENA5FN': '',
+	'BANO': false,
 	'COMENT_BANO': '',
-	'PASILLODORMITORIO': false,
 	'FOTO_PASILLODORMITORIO': 'a5images/null1x1.png',
 	'FOTO_PASILLODORMITORIO_HIDDENA5FN': '',
+	'PASILLODORMITORIO': false,
 	'COMENT_PASILLODORMITORIO': '',
-	'LOGGIA': false,
 	'FOTO_LOGGIA': 'a5images/null1x1.png',
 	'FOTO_LOGGIA_HIDDENA5FN': '',
+	'LOGGIA': false,
 	'COMENT_LOGGIA': '',
-	'COCINA': false,
 	'FOTO_COCINA': 'a5images/null1x1.png',
 	'FOTO_COCINA_HIDDENA5FN': '',
+	'COCINA': false,
 	'COMENT_COCINA': '',
-	'BODEGA': false,
 	'FOTO_BODEGA': 'a5images/null1x1.png',
 	'FOTO_BODEGA_HIDDENA5FN': '',
+	'BODEGA': false,
 	'COMENT_BODEGA': '',
 	'MAPA_GENERAL': ''
 }],
@@ -817,45 +852,45 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	PROPIEDADES: '',
 	ID_PROP: '',
 	ID_OBRAS_1: '',
-	HALLACCESO: false,
 	FOTO_HALLACCESO: 'a5images/null1x1.png',
 	FOTO_HALLACCESO_HIDDENA5FN: '',
+	HALLACCESO: false,
 	COMENT_HALLACCESO: '',
-	LIVING: false,
 	FOTO_LIVING: 'a5images/null1x1.png',
 	FOTO_LIVING_HIDDENA5FN: '',
+	LIVING: false,
 	COMENT_LIVING: '',
-	COMEDOR: false,
 	FOTO_COMEDOR: 'a5images/null1x1.png',
 	FOTO_COMEDOR_HIDDENA5FN: '',
+	COMEDOR: false,
 	COMENT_COMEDOR: '',
-	TERRAZA: false,
 	FOTO_TERRAZA: 'a5images/null1x1.png',
 	FOTO_TERRAZA_HIDDENA5FN: '',
+	TERRAZA: false,
 	COMENT_TERRAZA: '',
-	DORMITORIO: false,
 	FOTO_DORMITORIO: 'a5images/null1x1.png',
 	FOTO_DORMITORIO_HIDDENA5FN: '',
+	DORMITORIO: false,
 	COMENT_DORMITORIO: '',
-	BANO: false,
 	FOTO_BANO: 'a5images/null1x1.png',
 	FOTO_BANO_HIDDENA5FN: '',
+	BANO: false,
 	COMENT_BANO: '',
-	PASILLODORMITORIO: false,
 	FOTO_PASILLODORMITORIO: 'a5images/null1x1.png',
 	FOTO_PASILLODORMITORIO_HIDDENA5FN: '',
+	PASILLODORMITORIO: false,
 	COMENT_PASILLODORMITORIO: '',
-	LOGGIA: false,
 	FOTO_LOGGIA: 'a5images/null1x1.png',
 	FOTO_LOGGIA_HIDDENA5FN: '',
+	LOGGIA: false,
 	COMENT_LOGGIA: '',
-	COCINA: false,
 	FOTO_COCINA: 'a5images/null1x1.png',
 	FOTO_COCINA_HIDDENA5FN: '',
+	COCINA: false,
 	COMENT_COCINA: '',
-	BODEGA: false,
 	FOTO_BODEGA: 'a5images/null1x1.png',
 	FOTO_BODEGA_HIDDENA5FN: '',
+	BODEGA: false,
 	COMENT_BODEGA: '',
 	MAPA_GENERAL: ''
 },
@@ -916,6 +951,20 @@ DLG1_DlgObj.loadCSSFile('css/materialize.min.css');
 DLG1_DlgObj.loadCSSFile('css/CSSIcons/font-awesome/css/font-awesome.min.css');
 DLG1_DlgObj._tabObjects = [];
 A5.loadJavascript('function mapageneral(){\n\tDLG1_DlgObj.runAction(\'MAPA GENERAL\');\n}\nfunction mapaobra(){\n\tDLG1_DlgObj.runAction(\'MAPA OBRA\');\n\tDLG1_DlgObj.runAction(\'REFRESH MAPA OBRA\');\n}\nfunction goInfo(){\n\tDLG1_DlgObj.panelSetActive(\'INFO\');\n}\n;\n\n\n\n;',true);
+DLG1_DlgObj.fieldHelpers['LAT_OBRAS'] = new A5.Edit({
+	format: {
+		type: 'mask',
+		mask: '##############',
+		showMask: false
+	}
+});
+DLG1_DlgObj.fieldHelpers['LONG_OBRAS'] = new A5.Edit({
+	format: {
+		type: 'mask',
+		mask: '##############',
+		showMask: false
+	}
+});
 DLG1_DlgObj.lookups = {
 };
 DLG1_DlgObj.dialogWatches['ENABLE_BUTTON_LISTSEARCHCLEAR_LISTA'] = {
@@ -1097,6 +1146,64 @@ DLG1_DlgObj.dialogWatches['ENABLE_BUTTON_DVSYNCHRONIZE_PROPIEDADES'] = {
 	for(var i=0; i<eles.length;i++) eles[i].disabled = !enable;
 	}
 	;}
+}
+DLG1_DlgObj._ajs = {};
+if (typeof DLG1_DlgObj.geolocation == 'undefined') {
+	DLG1_DlgObj.geolocation={};
+	DLG1_DlgObj.geolocation.accuracy = null;
+	DLG1_DlgObj.geolocation.altitude = null;
+	DLG1_DlgObj.geolocation.altitudeAccuracy = null;
+	DLG1_DlgObj.geolocation.heading = null;
+	DLG1_DlgObj.geolocation.latitude = null;
+	DLG1_DlgObj.geolocation.longitude = null;
+	DLG1_DlgObj.geolocation.speed = null;
+	DLG1_DlgObj.geolocation.timestamp = null;
+	DLG1_DlgObj.getGeolocation = function() {
+		return DLG1_DlgObj.geolocation;
+	}
+}
+DLG1_DlgObj.geoLocateSuccess_fea42c89df4c4556903d0889f96785c2 =function(pos){
+	DLG1_DlgObj.geolocation.accuracy = pos.coords.accuracy;
+	DLG1_DlgObj.geolocation.altitude = pos.coords.altitude;
+	DLG1_DlgObj.geolocation.altitudeAccuracy = pos.coords.altitudeAccuracy;
+	DLG1_DlgObj.geolocation.heading = pos.coords.heading;
+	DLG1_DlgObj.geolocation.latitude = pos.coords.latitude;
+	DLG1_DlgObj.geolocation.longitude = pos.coords.longitude;
+	DLG1_DlgObj.geolocation.speed = pos.coords.speed;
+	DLG1_DlgObj.geolocation.timestamp = pos.timestamp;
+	try{
+		DLG1_DlgObj.populateControls_fireCallback_fea42c89df4c4556903d0889f96785c2();
+	}
+	catch(e){
+		alert('Callback function error : ' + e.message);
+	}	
+}
+DLG1_DlgObj.geoLocateFailed_fea42c89df4c4556903d0889f96785c2 = function(error){
+	switch(error.code){
+		case 0: 
+			alert('Geolocation error : An unknown error occured.');
+			break;
+		case 1: 
+			alert('Geolocation error : Permision to use GeoLocation Service denied by user');
+			break;
+		case 2: 
+			alert('Geolocation error : Position not available');
+			break;
+		case 3: 
+			alert('Geolocation error : Timeout');
+			break;		
+	}
+}
+// not currently in use but was previously defined as {dilaog.object}.geolocation.clearWatch
+DLG1_DlgObj.geolocation.clearWatch_fea42c89df4c4556903d0889f96785c2 = function(){
+	if (typeof DLG1_DlgObj._watchID_fea42c89df4c4556903d0889f96785c2 != 'undefined'){
+		navigator.geolocation.clearWatch(DLG1_DlgObj._watchID_fea42c89df4c4556903d0889f96785c2);
+		delete DLG1_DlgObj._watchID_fea42c89df4c4556903d0889f96785c2;	
+	}
+}
+DLG1_DlgObj.populateControls_fireCallback_fea42c89df4c4556903d0889f96785c2 = function(){
+DLG1_DlgObj.setValue('LAT_OBRAS',DLG1_DlgObj.geolocation.latitude );
+DLG1_DlgObj.setValue('LONG_OBRAS',DLG1_DlgObj.geolocation.longitude );
 }
 DLG1_DlgObj._functions.imageCapture_c7175caa870c4150b86f1473e70d8440 = function(){
 var options = {
@@ -1517,7 +1624,7 @@ var options = {
 DLG1_DlgObj.detailViewImageCaptureHTML5(options);
 }
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "18700618-bac5-4148-b152-1256b77b78f2",
+	"__dialogGuid": "49e715e4-aa11-433c-808b-bfe50afc6ee4",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",
@@ -1543,49 +1650,49 @@ FOTO_OBRAS:'INFO',
 PROPIEDADES:'DETALLE',
 ID_PROP:'DETALLE',
 ID_OBRAS_1:'DETALLE',
-HALLACCESO:'DETALLE',
 FOTO_HALLACCESO:'DETALLE',
+HALLACCESO:'DETALLE',
 COMENT_HALLACCESO:'DETALLE',
-LIVING:'DETALLE',
 FOTO_LIVING:'DETALLE',
+LIVING:'DETALLE',
 COMENT_LIVING:'DETALLE',
-COMEDOR:'DETALLE',
 FOTO_COMEDOR:'DETALLE',
+COMEDOR:'DETALLE',
 COMENT_COMEDOR:'DETALLE',
-TERRAZA:'DETALLE',
 FOTO_TERRAZA:'DETALLE',
+TERRAZA:'DETALLE',
 COMENT_TERRAZA:'DETALLE',
-DORMITORIO:'DETALLE',
 FOTO_DORMITORIO:'DETALLE',
+DORMITORIO:'DETALLE',
 COMENT_DORMITORIO:'DETALLE',
-BANO:'DETALLE',
 FOTO_BANO:'DETALLE',
+BANO:'DETALLE',
 COMENT_BANO:'DETALLE',
-PASILLODORMITORIO:'DETALLE',
 FOTO_PASILLODORMITORIO:'DETALLE',
+PASILLODORMITORIO:'DETALLE',
 COMENT_PASILLODORMITORIO:'DETALLE',
-LOGGIA:'DETALLE',
 FOTO_LOGGIA:'DETALLE',
+LOGGIA:'DETALLE',
 COMENT_LOGGIA:'DETALLE',
-COCINA:'DETALLE',
 FOTO_COCINA:'DETALLE',
+COCINA:'DETALLE',
 COMENT_COCINA:'DETALLE',
-BODEGA:'DETALLE',
 FOTO_BODEGA:'DETALLE',
+BODEGA:'DETALLE',
 COMENT_BODEGA:'DETALLE',
 MAPA_GENERAL:'MAPA'
 }
 DLG1_DlgObj._controlsOnPanel = {
 	'LISTADO' : {controls: ['LISTA_KEYWORDSEARCH','LISTA']},
 	'INFO' : {controls: ['ID_OBRAS','NOMBRE_OBRAS','DIRECCION_OBRAS','LAT_OBRAS','LONG_OBRAS','MAPA_OBRA','FOTO_OBRAS']},
-	'DETALLE' : {controls: ['PROPIEDADES','ID_PROP','ID_OBRAS_1','HALLACCESO','FOTO_HALLACCESO','COMENT_HALLACCESO','LIVING','FOTO_LIVING','COMENT_LIVING','COMEDOR','FOTO_COMEDOR','COMENT_COMEDOR','TERRAZA','FOTO_TERRAZA','COMENT_TERRAZA','DORMITORIO','FOTO_DORMITORIO','COMENT_DORMITORIO','BANO','FOTO_BANO','COMENT_BANO','PASILLODORMITORIO','FOTO_PASILLODORMITORIO','COMENT_PASILLODORMITORIO','LOGGIA','FOTO_LOGGIA','COMENT_LOGGIA','COCINA','FOTO_COCINA','COMENT_COCINA','BODEGA','FOTO_BODEGA','COMENT_BODEGA']},
+	'DETALLE' : {controls: ['PROPIEDADES','ID_PROP','ID_OBRAS_1','FOTO_HALLACCESO','HALLACCESO','COMENT_HALLACCESO','FOTO_LIVING','LIVING','COMENT_LIVING','FOTO_COMEDOR','COMEDOR','COMENT_COMEDOR','FOTO_TERRAZA','TERRAZA','COMENT_TERRAZA','FOTO_DORMITORIO','DORMITORIO','COMENT_DORMITORIO','FOTO_BANO','BANO','COMENT_BANO','FOTO_PASILLODORMITORIO','PASILLODORMITORIO','COMENT_PASILLODORMITORIO','FOTO_LOGGIA','LOGGIA','COMENT_LOGGIA','FOTO_COCINA','COCINA','COMENT_COCINA','FOTO_BODEGA','BODEGA','COMENT_BODEGA']},
 	'MAPA' : {controls: ['MAPA_GENERAL']}
 }
 DLG1_DlgObj._buttons = {};
 DLG1_DlgObj._buttons['BUTTON_25'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Refrescar lista',
 	icon: 'cssIcon=fa fa-refresh',
 	disabledIcon: 'cssIcon=fa fa-refresh',
@@ -1597,7 +1704,7 @@ DLG1_DlgObj._buttons['BUTTON_LISTSEARCH_LISTA'] = new A5.Button({
 	layout: 'text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Search for matching records.',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Buscar',
 	onClick: function() { 
 },
@@ -1607,7 +1714,7 @@ DLG1_DlgObj._buttons['BUTTON_LISTSEARCHCLEAR_LISTA'] = new A5.Button({
 	layout: 'text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Remove the List filter.',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Limpiar',
 	onClick: function() { 
 },
@@ -1617,7 +1724,7 @@ DLG1_DlgObj._buttons['BUTTON_DVNEWRECORD_LISTA'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Nuevo registro',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'New Record',
 	icon: 'cssIcon=fa fa-plus',
 	disabledIcon: 'cssIcon=fa fa-plus',
@@ -1630,7 +1737,7 @@ DLG1_DlgObj._buttons['BUTTON_DVSYNCHRONIZE_LISTA'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Synchronize data - push local edits back to the server',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Sincronizar',
 	icon: 'cssIcon=fa fa-refresh',
 	disabledIcon: 'cssIcon=fa fa-refresh',
@@ -1642,16 +1749,28 @@ DLG1_DlgObj._buttons['BUTTON_DVSYNCHRONIZE_LISTA'] = new A5.Button({
 DLG1_DlgObj._buttons['BUTTON_14'] = new A5.Button({
 	layout: 'text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Ver caracter&iacute;sticas',
 	onClick: function() { 
 },
 	theme: 'iOS7'
 });
+DLG1_DlgObj._buttons['BUTTON_26'] = new A5.Button({
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'btn-floating waves-effect waves-light btn-custom',
+	html: 'Button',
+	icon: 'cssIcon=fa fa-location-arrow',
+	disabledIcon: 'cssIcon=fa fa-location-arrow',
+	onClick: function() { 
+},
+	iconStyle: 'white-text',
+	theme: 'iOS7'
+});
 DLG1_DlgObj._buttons['BUTTON_8'] = new A5.Button({
 	layout: 'text icon',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Subir imagen',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1664,7 +1783,7 @@ DLG1_DlgObj._buttons['BUTTON_DVSAVE_LISTA'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Save edits',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Guardar',
 	icon: 'cssIcon=fa fa-save',
 	disabledIcon: 'cssIcon=fa fa-save',
@@ -1677,7 +1796,7 @@ DLG1_DlgObj._buttons['BUTTON_DVDELETERECORD_LISTA'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Delete record',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Borrar registro',
 	icon: 'cssIcon=fa fa-trash-o',
 	disabledIcon: 'cssIcon=fa fa-trash-o',
@@ -1690,7 +1809,7 @@ DLG1_DlgObj._buttons['BUTTON_DVRESET_LISTA'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	tip: 'Undo edits to the List Detail View',
-	className: 'btn btn-custom waves-effect waves-light',
+	className: 'hoverable btn btn-custom waves-effect waves-light',
 	html: 'Resetear',
 	icon: 'cssIcon=fa fa-mail-reply',
 	disabledIcon: 'cssIcon=fa fa-mail-reply',
@@ -1700,9 +1819,9 @@ DLG1_DlgObj._buttons['BUTTON_DVRESET_LISTA'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_15'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1711,9 +1830,9 @@ DLG1_DlgObj._buttons['BUTTON_15'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_16'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1722,9 +1841,9 @@ DLG1_DlgObj._buttons['BUTTON_16'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_17'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1733,9 +1852,9 @@ DLG1_DlgObj._buttons['BUTTON_17'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_18'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1744,9 +1863,9 @@ DLG1_DlgObj._buttons['BUTTON_18'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_19'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1755,9 +1874,9 @@ DLG1_DlgObj._buttons['BUTTON_19'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_20'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1766,9 +1885,9 @@ DLG1_DlgObj._buttons['BUTTON_20'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_21'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1777,9 +1896,9 @@ DLG1_DlgObj._buttons['BUTTON_21'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_22'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1788,9 +1907,9 @@ DLG1_DlgObj._buttons['BUTTON_22'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_23'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1799,9 +1918,9 @@ DLG1_DlgObj._buttons['BUTTON_23'] = new A5.Button({
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_24'] = new A5.Button({
-	layout: 'icon text',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	className: 'btn btn-custom waves-effect waves-light',
+	layout: 'icon',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	className: 'hoverable btn-floating halfway-fab btn-custom waves-effect waves-light z-depth-2 hoverable',
 	html: 'Captura',
 	icon: 'cssIcon=fa fa-camera',
 	disabledIcon: 'cssIcon=fa fa-camera',
@@ -1867,6 +1986,7 @@ DLG1_DlgObj._buttons['BUTTON_LISTSEARCHCLEAR_LISTA'].bind('DLG1.V.R1.BUTTON_LIST
 DLG1_DlgObj._buttons['BUTTON_DVNEWRECORD_LISTA'].bind('DLG1.V.R1.BUTTON_DVNEWRECORD_LISTA');
 DLG1_DlgObj._buttons['BUTTON_DVSYNCHRONIZE_LISTA'].bind('DLG1.V.R1.BUTTON_DVSYNCHRONIZE_LISTA');
 DLG1_DlgObj._buttons['BUTTON_14'].bind('DLG1.V.R1.BUTTON_14');
+DLG1_DlgObj._buttons['BUTTON_26'].bind('DLG1.V.R1.BUTTON_26');
 DLG1_DlgObj._buttons['BUTTON_8'].bind('DLG1.V.R1.BUTTON_8');
 DLG1_DlgObj._buttons['BUTTON_DVSAVE_LISTA'].bind('DLG1.V.R1.BUTTON_DVSAVE_LISTA');
 DLG1_DlgObj._buttons['BUTTON_DVDELETERECORD_LISTA'].bind('DLG1.V.R1.BUTTON_DVDELETERECORD_LISTA');
@@ -4660,7 +4780,7 @@ if(ele) ele.innerHTML = rowCount;
 DLG1_DlgObj._listViewData['LISTA'] = [{"id_obras": "1","nombre_obras": "Empresas","direccion_obras": "Sara del Campo 535, Santiago","lat_obras": "-33.244277","long_obras": "-70.443448","foto_obras": "http://192.168.100.11:1580/p2/img/capture.jpg","__primaryKey": "1","__a5crc": -1235875,"__LIST__PROPIEDADES": [{"id_prop": "2","id_obras": "1","hallAcceso": "0","living": "0","comedor": "0","terraza": "0","dormitorio": "0","bano": "0","pasilloDormitorio": "0","loggia": "0","cocina": "0","bodega": "0","foto_hallAcceso": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_living": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_comedor": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_terraza": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_dormitorio": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_bano": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_pasilloDormitorio": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_cocina": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_loggia": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_bodega": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","coment_bodega": "ca","coment_loggia": "ca","coment_cocina": "ca","coment_pasilloDormitorio": "ca","coment_bano": "ca","coment_dormitorio": "ca","coment_terraza": "ca","coment_comedor": "ca","coment_living": "ca","coment_hallAcceso": "ca","__primaryKey": "2"}]},{"id_obras": "2","nombre_obras": "Empresas 2","direccion_obras": "San Francisco 335, Santiago","lat_obras": "-33.444277","long_obras": "-70.643448","foto_obras": "http://192.168.100.11:1580/p2/img/1499431999119995361256.jpg","__primaryKey": "2","__a5crc": -891339,"__LIST__PROPIEDADES": [{"id_prop": "3","id_obras": "2","hallAcceso": "0","living": "0","comedor": "0","terraza": "0","dormitorio": "0","bano": "0","pasilloDormitorio": "0","loggia": "0","cocina": "0","bodega": "0","foto_hallAcceso": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_living": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_comedor": "img\\20170707_113026_HDR.jpg","foto_terraza": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_dormitorio": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_bano": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_pasilloDormitorio": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_cocina": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_loggia": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","foto_bodega": "http://192.168.100.11:1580/p2/img/20170707_113026_HDR.jpg","coment_bodega": "Coment","coment_loggia": "Comentario","coment_cocina": "Coment","coment_pasilloDormitorio": "Comenr","coment_bano": "Coment","coment_dormitorio": "Coment","coment_terraza": "Coment","coment_comedor": "Coment","coment_living": "Coment","coment_hallAcceso": "Coment","__primaryKey": "3"}]},{"id_obras": "3","nombre_obras": "Empresa 3","direccion_obras": "Providencia 1650, Santiago","lat_obras": "-33.644277","long_obras": "-70.843448","foto_obras": "http://192.168.100.11:1580/p2/img/1499432035785633418835.jpg","__primaryKey": "3","__a5crc": -828478,"__LIST__PROPIEDADES": [{"id_prop": "1","id_obras": "3","hallAcceso": "0","living": "0","comedor": "0","terraza": "0","dormitorio": "0","bano": "0","pasilloDormitorio": "0","loggia": "0","cocina": "0","bodega": "0","foto_hallAcceso": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_living": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_comedor": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_terraza": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_dormitorio": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_bano": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_pasilloDormitorio": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_cocina": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_loggia": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","foto_bodega": "http://192.168.100.22:1580/p2/img/Capture+_2017-07-06-14-16-28.jpg","coment_bodega": "Comemt","coment_loggia": "Coment","coment_cocina": "Coment","coment_pasilloDormitorio": "Coment","coment_bano": "Comentario","coment_dormitorio": "Coment","coment_terraza": "Comentario","coment_comedor": "Comentario","coment_living": "Comentario","coment_hallAcceso": "Comentario","__primaryKey": "1"}]},{"id_obras": "4","nombre_obras": "Empresa 4","direccion_obras": "Providencia 1250, Santiago","lat_obras": "-33.544277","long_obras": "-70.543448","foto_obras": "http://192.168.100.11:1580/p2/img/20170707_090325.jpg","__primaryKey": "4","__a5crc": -207195},{"id_obras": "5","nombre_obras": "Empresa 5","direccion_obras": "Providencia 1750, Santiago","lat_obras": "-33.344277","long_obras": "-70.743448","foto_obras": "http://192.168.100.11:1580/p2/img/20170707_085401.jpg","__primaryKey": "5","__a5crc": -218777}]; 
 DLG1_DlgObj._listViewData['PROPIEDADES'] = [];
 ;
-DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "18700618-bac5-4148-b152-1256b77b78f2", 	"argumentsBoundToCotrols": "", 	"__sgr": "", 	"__dtfmt": "MM/dd/yyyy", 	"__tfmt": "" });
+DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "49e715e4-aa11-433c-808b-bfe50afc6ee4", 	"argumentsBoundToCotrols": "", 	"__sgr": "", 	"__dtfmt": "MM/dd/yyyy", 	"__tfmt": "" });
 DLG1_DlgObj._controlBars = {}; 
 DLG1_DlgObj._controlBars['CONTROLBAR_2'] = {
 	"settings": {
@@ -8125,11 +8245,65 @@ CONTAINER_10: ['container:CONTAINER_11'],
 CONTAINER_11: [],
 CONTAINER_1_2: ['container:CONTAINER_12'],
 CONTAINER_12: ['container:CONTAINER_13'],
-CONTAINER_13: ['id_obras','nombre_obras','direccion_obras','lat_obras','long_obras','container:CONTAINER_17','foto_obras'],
+CONTAINER_13: ['id_obras','nombre_obras','direccion_obras','container:CONTAINER_73','container:CONTAINER_74','container:CONTAINER_75','container:CONTAINER_17','foto_obras'],
+CONTAINER_73: [],
+CONTAINER_74: ['lat_obras'],
+CONTAINER_75: ['long_obras'],
 CONTAINER_17: ['mapa_obra'],
 CONTAINER_1_3: ['container:CONTAINER_15'],
 CONTAINER_15: ['container:CONTAINER_16'],
-CONTAINER_16: ['PROPIEDADES','id_prop','id_obras_1','hallAcceso','foto_hallAcceso','coment_hallAcceso','living','foto_living','coment_living','comedor','foto_comedor','coment_comedor','terraza','foto_terraza','coment_terraza','dormitorio','foto_dormitorio','coment_dormitorio','bano','foto_bano','coment_bano','pasilloDormitorio','foto_pasilloDormitorio','coment_pasilloDormitorio','loggia','foto_loggia','coment_loggia','cocina','foto_cocina','coment_cocina','bodega','foto_bodega','coment_bodega'],
+CONTAINER_16: ['container:CONTAINER_52','container:CONTAINER_53'],
+CONTAINER_52: ['foto_hallAcceso'],
+CONTAINER_53: ['hallAcceso','coment_hallAcceso'],
+CONTAINER_1_4: ['container:CONTAINER_22'],
+CONTAINER_22: ['container:CONTAINER_23'],
+CONTAINER_23: ['container:CONTAINER_54','container:CONTAINER_55'],
+CONTAINER_54: ['foto_living'],
+CONTAINER_55: ['living','coment_living'],
+CONTAINER_1_5: ['container:CONTAINER_24'],
+CONTAINER_24: ['container:CONTAINER_25'],
+CONTAINER_25: ['container:CONTAINER_56','container:CONTAINER_57'],
+CONTAINER_56: ['foto_comedor'],
+CONTAINER_57: ['comedor','coment_comedor'],
+CONTAINER_1_6: ['container:CONTAINER_26'],
+CONTAINER_26: ['container:CONTAINER_27'],
+CONTAINER_27: ['container:CONTAINER_58','container:CONTAINER_59'],
+CONTAINER_58: ['foto_terraza'],
+CONTAINER_59: ['terraza','coment_terraza'],
+CONTAINER_1_7: ['container:CONTAINER_28'],
+CONTAINER_28: ['container:CONTAINER_29'],
+CONTAINER_29: ['container:CONTAINER_60','container:CONTAINER_61'],
+CONTAINER_60: ['foto_dormitorio'],
+CONTAINER_61: ['dormitorio','coment_dormitorio'],
+CONTAINER_1_8: ['container:CONTAINER_30'],
+CONTAINER_30: ['container:CONTAINER_31'],
+CONTAINER_31: ['container:CONTAINER_62','container:CONTAINER_63'],
+CONTAINER_62: ['foto_bano'],
+CONTAINER_63: ['bano','coment_bano'],
+CONTAINER_1_9: ['container:CONTAINER_32'],
+CONTAINER_32: ['container:CONTAINER_33'],
+CONTAINER_33: ['container:CONTAINER_64','container:CONTAINER_65'],
+CONTAINER_64: ['foto_pasilloDormitorio'],
+CONTAINER_65: ['pasilloDormitorio','coment_pasilloDormitorio'],
+CONTAINER_1_10: ['container:CONTAINER_34'],
+CONTAINER_34: ['container:CONTAINER_35'],
+CONTAINER_35: ['container:CONTAINER_66','container:CONTAINER_67'],
+CONTAINER_66: ['foto_loggia'],
+CONTAINER_67: ['loggia','coment_loggia'],
+CONTAINER_1_11: ['container:CONTAINER_36'],
+CONTAINER_36: ['container:CONTAINER_37'],
+CONTAINER_37: ['container:CONTAINER_68','container:CONTAINER_69'],
+CONTAINER_68: ['foto_cocina'],
+CONTAINER_69: ['cocina','coment_cocina'],
+CONTAINER_1_12: ['container:CONTAINER_38'],
+CONTAINER_38: ['container:CONTAINER_39'],
+CONTAINER_39: ['container:CONTAINER_70','container:CONTAINER_71'],
+CONTAINER_70: ['foto_bodega'],
+CONTAINER_71: ['bodega','coment_bodega'],
+CONTAINER_1_13: ['container:CONTAINER_40'],
+CONTAINER_40: ['container:CONTAINER_41'],
+CONTAINER_41: [],
+CONTAINER_72: ['container:CONTAINER_21'],
 CONTAINER_21: ['mapa_general'],
 PANELFOOTER_1: []
 }
@@ -10932,6 +11106,16 @@ myOb.setValue(0,true);
 
 
 
+$e.add('DLG1.V.R1.BUTTON_26',A5.d.evnts.click,function(e) {
+navigator.geolocation.getCurrentPosition(DLG1_DlgObj.geoLocateSuccess_fea42c89df4c4556903d0889f96785c2,DLG1_DlgObj.geoLocateFailed_fea42c89df4c4556903d0889f96785c2,{enableHighAccuracy : true, timeout:15000, maximumAge:30000});
+},this,false,'DLG1.V.R1.BUTTON_26');
+
+
+
+
+
+
+
 
 
 
@@ -10970,9 +11154,21 @@ lObj.resetForm({prompt: true});
 
 
 
+
 $e.add('DLG1.V.R1.BUTTON_15',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_dfa91571f70345678ab156b8d02e7257();
 },this,false,'DLG1.V.R1.BUTTON_15');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10984,9 +11180,31 @@ DLG1_DlgObj._functions.imageCapture_aa3b9e7af4424b6782a5fa55b4c57295();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 $e.add('DLG1.V.R1.BUTTON_17',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_bc425743b8264552b885bccc1a2d3858();
 },this,false,'DLG1.V.R1.BUTTON_17');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10998,9 +11216,31 @@ DLG1_DlgObj._functions.imageCapture_938bfa15e38f4d6985393f032118a594();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 $e.add('DLG1.V.R1.BUTTON_19',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_285c17fa822641e2933a6daa7006d180();
 },this,false,'DLG1.V.R1.BUTTON_19');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11012,9 +11252,31 @@ DLG1_DlgObj._functions.imageCapture_9af331a5915441e49b1c0c25870ea8af();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 $e.add('DLG1.V.R1.BUTTON_21',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_5362e15122f74db787464008f45317a6();
 },this,false,'DLG1.V.R1.BUTTON_21');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11026,6 +11288,17 @@ DLG1_DlgObj._functions.imageCapture_c4a9b161302749cbbaa3d56343d08e25();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 $e.add('DLG1.V.R1.BUTTON_23',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_54db38b63ec94b7e858d763d7a21e2f8();
 },this,false,'DLG1.V.R1.BUTTON_23');
@@ -11033,9 +11306,30 @@ DLG1_DlgObj._functions.imageCapture_54db38b63ec94b7e858d763d7a21e2f8();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 $e.add('DLG1.V.R1.BUTTON_24',A5.d.evnts.click,function(e) {
 DLG1_DlgObj._functions.imageCapture_b6bab627eb5949b0888f975a7c6e71e2();
 },this,false,'DLG1.V.R1.BUTTON_24');
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11163,6 +11457,10 @@ if(listObj._refreshStateMessages) listObj._refreshStateMessages();
 
 
 
+
+
+
+
 var listObj = DLG1_DlgObj.getControl('PROPIEDADES');
 if(listObj) listObj._state.recordCount = 0;
 if(listObj) listObj._state.recordCountFormatted = '0';
@@ -11194,6 +11492,122 @@ if(listObj) listObj._state.pageCount = 1;
 DLG1_DlgObj._list_executeEvent('PROPIEDADES','afterRenderComplete',{});
 
 if(listObj._refreshStateMessages) listObj._refreshStateMessages();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
