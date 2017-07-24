@@ -1,11 +1,11 @@
 {
 	"_id": "2720334",
-	"_icon": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\144x144.png",
+	"_icon": "C:\\Users\\Desarrollador\\Documents\\alpha p2\\alpha p2.WebProjects\\Default.WebProject\\icon144.png",
 	"_ssL": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
 	"_ssP": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
 	"_ssA9": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
 	"_initialUxComponent": "main",
-	"_componentLastUpdated": "21/07/2017 04:36:03 21 pm",
+	"_componentLastUpdated": "24/07/2017 10:54:02 23 am",
 	"_ajaxUrl": "http://nubisonlab.cl:1580/p2app",
 	"_additionalFiles": "",
 	"_userName": "wtwx6irfQI388l610MfHcA3dx88wwCfU",
