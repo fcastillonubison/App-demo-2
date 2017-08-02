@@ -1,0 +1,30 @@
+{
+	"id": "1",
+	"name": "P2APP",
+	"url": "",
+	"version": "1.0.0",
+	"installMessage": "",
+	"minSize": "",
+	"maxSize": "",
+	"description": "p2app",
+	"other": {
+		"developerName": "",
+		"deveroperEmail": ""
+	},
+	"BackgroundColor": "#5345f2",
+	"icontype": "Bitmap",
+	"iconbitmap": "",
+	"iconstyle": "",
+	"svg": "",
+	"advancedMode": false,
+	"advancedModeJson": "",
+	"options": {
+		"iOSStatusBar": {
+			"statusBarOverlaysWebView": 1,
+			"statusBarTextWhite": 0,
+			"statusBarBackgroundHexColor": "#FFF"
+		}
+	},
+	"downloadtype": "manifest",
+	"downloadLocation": ""
+}

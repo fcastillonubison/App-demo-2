@@ -85,7 +85,7 @@
 <misc<DefaultValuePublishDatabaseLibrary=.F.>
 <restrictWebDataPublish=.F.>
 <AutoRestrictWebDataPublish=.F.>
-<WebDataPublished=.F.>
+<WebDataPublished=.T.>
 <DefaultValuePublishSupportFiles=.T.>
 <PublishAsBinary=.F.>
 <SecurityGuid="3e293ae72850418a8174acbe9f7c4181">
@@ -106,4 +106,3 @@
 <StorageConnectionStrings="">
 >
 >
-<activeDirectory>

@@ -1,6 +1,6 @@
 function _phoneGapSettings() { 
  return {
-    "appId": "com.yourCompany.yourApp",
+    "appId": "com.nubisonlab.p2app",
     "preferences": {
         "permissions": "",
         "orientation": "default",

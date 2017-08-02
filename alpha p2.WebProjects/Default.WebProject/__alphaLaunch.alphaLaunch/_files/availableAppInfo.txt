@@ -1,0 +1,29 @@
+{
+	"version": "1.0",
+	"description": "Available App Info",
+	"hostname": "Test Server",
+	"message": "Sample message",
+	"messageVersion": 1,
+	"appList": [
+		{
+			"id": "1",
+			"name": "P2APP",
+			"description": "p2app",
+			"url": "main_0aff0deaf5094d4b882742053b458e36",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/p2app/main_0aff0deaf5094d4b882742053b458e36/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		}	
+]
+}

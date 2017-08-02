@@ -1,0 +1,23 @@
+{
+	"items": [
+		{
+			"componentName": "main",
+			"settingsJSON": "{\n\t\"id\": \"1\",\n\t\"name\": \"P2APP\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"p2app\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "0aff0deaf5094d4b882742053b458e36"
+		}	
+],
+	"testServer": {
+		"version": "1.0",
+		"description": "Available App Info",
+		"hostName": "Test Server",
+		"message": "Sample message",
+		"messageVersion": 1
+	},
+	"publishing": {
+		"lastProfile": "Nubison Server",
+		"lastURL": "",
+		"serverName": "Nubison Lab",
+		"serverDescription": "Nubison Lab"
+	}
+}
