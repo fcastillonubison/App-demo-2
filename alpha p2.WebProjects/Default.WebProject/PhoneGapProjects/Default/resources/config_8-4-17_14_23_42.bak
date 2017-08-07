@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.nubisonlab.p2app" version="0.1.1" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Prototipo 2</name>
+    <name>P2</name>
     <description>
         Prototipo
     </description>
@@ -176,5 +176,4 @@
 	<plugin name="cordova-plugin-file-transfer" source="npm" version="1.5.1" />
 	<plugin name="cordova-plugin-dialogs" source="npm" />
 	<plugin name="cordova-plugin-media-capture" source="npm" />
-	<feature name="http://api.phonegap.com/1.0/camera" />
 </widget>

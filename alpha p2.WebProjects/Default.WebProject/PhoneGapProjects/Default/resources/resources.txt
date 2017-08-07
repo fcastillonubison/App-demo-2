@@ -1,5 +1,5 @@
 {
-	"_id": "2729292",
+	"_id": "2741309",
 	"_icon": "C:\\Users\\Desarrollador\\Documents\\alpha p2\\alpha p2.WebProjects\\Default.WebProject\\icon144.png",
 	"_ssL": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
 	"_ssP": "C:\\Users\\Desarrollador\\Desktop\\Nubison Identidad Corporativa\\logo_nubison_sin_slogan_apaisado_alta.png",
@@ -8,8 +8,8 @@
 	"_componentLastUpdated": "27/07/2017 03:32:37 75 pm",
 	"_ajaxUrl": "http://nubisonlab.cl:1580/p2app",
 	"_additionalFiles": "icon144.png\nicon173.png\nicon72.png\nicon57.png",
-	"_userName": "Tva8QUYnrNfjBI9YXra2+XWnzlG7uifS",
-	"_pw": "9sPelWvZD4Epw+X0QKVS0w==",
+	"_userName": "wtwx6irfQI388l610MfHcA3dx88wwCfU",
+	"_pw": "nEUmwR92tRwv6SDFKfexhg==",
 	"_token": "",
 	"timeout": {
 		"phoneGapBuild": "<default>",
